@@ -23,9 +23,13 @@ table tr:hover{
 thead{
     background-color: darkslategray;
 }
+tfoot{
+    background-color: lightyellow;
+}
 
 #Totaltext{
     text-align: left;
+    border: 0px;
 }
 
 tr, td{
@@ -44,10 +48,6 @@ th{
     color: white;
 }
 
-#lastrow{
-    background-color: lightskyblue;
-}
-
-#lastr{
-    border: none;
+#lastc{
+    border: none;   
 }

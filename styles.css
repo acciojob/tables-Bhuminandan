@@ -11,12 +11,17 @@ html, body{
 }
 
 table{
+
     border-collapse: collapse;
     margin: 20px;
 }
 
+table tr:hover{  
+    background: #f1f1f1;
+}
+
 thead{
-    background-color: black;
+    background-color: darkslategray;
 }
 
 #Totaltext{
@@ -40,5 +45,9 @@ th{
 }
 
 #lastrow{
-    background-color: #F8F9FB;
+    background-color: lightskyblue;
+}
+
+#lastr{
+    border: none;
 }
